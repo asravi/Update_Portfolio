@@ -1,13 +1,15 @@
 
+html {
+  background-color: rgb(250, 12, 24);
+}
+div {
+    background-color: rgb(30, 164, 182);
+}
 
-main {
-    
-    padding-top: 100%;
-    background-color: burlywood;
-    
-} 
-body {
-    background-color: crimson;
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(146, 19, 51);
+  background-color: rgb(211, 164, 102);
 }
 
 h1 {
