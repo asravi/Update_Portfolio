@@ -1,60 +1,131 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style.css" rel="stylesheet">
-   
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <h1>
-        Portfolio
-    </h1>
-    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- this is my portafolio favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/Colorful Sky.jpg">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Aditya Seshadri</title>
 </head>
+
 <body>
-    <div class="row"> 
-        <div class="col">
-            <img src="img/Moraine Lake.jpg" alt="Moraine Lake" width="180" height="170" class="img-thumbnail imagesize float-left mr-3 img-responsive">
 
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top py-0 sticky-top">
+        <div class="container">
+            <a class="navbar-brand px-2" href="index.html">
+                <h1 class="mb-0">Aditya Seshadri</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                        <!--this is the index page-->
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link font-weight-bold" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
+    </nav>
 
-    <div class="row">
-        <div class="col" >
-            <img src="img/Lake Louise.jpg" alt="Lake Louise" width="180" height="180" class="img-thumbanail imagesize float-left mr-3 img-responsive">
+    <!-- Page Content -->
+    <section class="container shadow-lg mt-4 rounded ">
+        <div class="row ">
+            <div class="col-12 col-md-10 offset-md-1 text-center">
+                <h1 class="text-left">Portfolio</h1>
+                <hr>
+            </div>
         </div>
-    </div>
-
-    <div class="row">
-        <div class="col">
-            <img src="img/Skyline.jpg" alt="Skyline" width="180" height="180" class="img-thumbnail imagesize float-left mr-3 img-responsive">
-
+        <!-- <div class="row d-flex justify-content-around "> -->
+        <div class="col-12 col-md-10 col-lg-5  "></div>
+            <div class="card-img-overlay "></div>
+                <img class="card-img-top" src="img/Moraine Lake.jpg"style="width:300px;height:300px;"
+                    alt="Moraine lake in Alberta">
+                    <div class="card-img-overlay "></div>
+            </div>
+            <br>
+            <br>
+        <div class="col-12 col-md-10 col-lg-5  "></div>
+            <div class="card-img-overlay "></div>
+                <img class="card-img-top" src="img/Rocky Beach.jpg" style="width:300px;height:300px;" 
+                    alt="Rocky Beach">
+                </div>
+            </div>
+            <br>
+            <br>
+        <div class="col-12 col-md-10 col-lg-5  "></div>
+            <div class="card-img-overlay "></div>
+                <img class="card-img-top" src="img/iceberg.jpg" style="width:300px;height:300px;" 
+                    alt="iceberg">
+            </div> 
         </div>
-    </div>
+            <br>
+            <br>
+        <div class="col-12 col-md-10 col-lg-5  "></div>
+            <div class="card-img-overlay "></div>
+                <img class="card-img-top" src="img/Colorful Sky.jpg" style="width:300px;height:300px;" 
+                    alt="Colorful Sky">
 
-    <div class="row">
-        <div class="col">
-            <img src="img/Buddhist Temple.jpg" alt="Buddhist Temple" width="180" height="180">
+            <br>
+            <br>
+
+        <div class="col-12 col-md-10 col-lg-5  "></div>
+            <div class="card-img-overlay "></div>
+                <img class="card-img-top" src="img/Buddhist Temple.jpg" style="width:300px;height:300px;" 
+                    alt="Buddhist Temple">
+            </div>
+        </div> 
+            <br>
+            <br>
+
+        <div class="col-12 col-md-10 col-lg-5  "></div>
+            <div class="card-img-overlay "></div>
+                <img class="card-img-top" src="img/Skyline.jpg" style="width:300px;height:300px;" 
+                    alt="Skyline">
+            </div>
         </div>
+            <br>
+            <br>
+            
 
-    </div>
-
-    <div class="row">
-        <div class="col">
-            <img src="img/Rocky Beach.jpg" alt="Beach with Rock formations" width="150" height="150">
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col">
-            <img src="img/Colorful Sky.jpg" alt="Bright Sky" width="150" height="150">
-
-        </div>
-
-    </div>
-
-
-
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
+
+</html>
 
